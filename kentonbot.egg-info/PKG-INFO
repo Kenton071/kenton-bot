@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: kentonbot
+Version: 0.1.0
+Summary: A poker bot that plays like Kenton: preflop first, built on simulation and GTO math.
+Requires-Python: >=3.10
