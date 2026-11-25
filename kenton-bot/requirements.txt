@@ -1,0 +1,15 @@
+# Core numerics
+numpy>=2.0
+numba>=0.60          # compiles hot loops to machine code (for the 169x169 matrix / solver later)
+pandas>=2.2          # tables of results, range charts
+
+# Hand evaluation
+phevaluator>=0.6     # fast, well-tested 5/6/7-card evaluator (pure Python, installs everywhere)
+
+# Plotting / exploration
+matplotlib>=3.8
+jupyterlab>=4.0      # notebooks for experiments
+tqdm>=4.66           # progress bars for long simulations
+
+# Testing
+pytest>=8.0

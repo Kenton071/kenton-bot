@@ -1,0 +1,4 @@
+# Optional: much faster C-based evaluator.
+# Prebuilt for most Linux/Mac setups; on Windows it may need a C compiler.
+# If installing fails, skip it: everything still works without it.
+eval7>=0.1.10

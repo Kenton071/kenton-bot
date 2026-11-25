@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kentonbot"
+version = "0.1.0"
+description = "A poker bot that plays like Kenton: preflop first, built on simulation and GTO math."
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["kentonbot"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
