@@ -59,4 +59,15 @@ def card_str(c: int) -> str:
 
 def parse_cards(s: str) -> list[int]:
     """'AhKd7c' -> [card('Ah'), card('Kd'), card('7c')]"""
-    raise NotImplementedError
+    parsed_cards = []
+
+    hands_split = list(s)
+
+    while len(hands_split) > 0:
+        temporary_pair = ""
+        for i in range(2):
+            temporary_pair += hands_split.pop(0)
+
+        parsed_cards.append(card(temporary_pair))
+
+    return parsed_cards
